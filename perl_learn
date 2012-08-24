@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+chomp($r = <STDIN>);
+
+if ($r < 0){
+	$r=0;
+}
+
+$pi = 3.1415926;
+
+$length = 2*$pi*$r;
+
+print "$length\n";
+
+chomp($a1=<STDIN>);
+chomp($a2=<STDIN>);
+$result=$a1*$a2;
+print "$result\n"
